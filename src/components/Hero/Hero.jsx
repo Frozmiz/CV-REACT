@@ -20,6 +20,12 @@ function Hero({ hero }) {
               {hero.email}
             </a>
           </li>
+          <li>
+            <span className="Hero__icon">👾</span>
+            <a href={`${hero.gitHub}`} className="Hero__link">
+              {hero.gitHub}
+            </a>
+          </li>
         </ul>
       </div>
       <div className="Hero__image">

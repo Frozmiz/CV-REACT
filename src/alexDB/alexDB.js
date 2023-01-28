@@ -5,6 +5,7 @@ import Img4 from "../assets/img4.png";
 import Img5 from "../assets/img5.jpg";
 import Img6 from "../assets/img6.png";
 import Img7 from "../assets/img7.jpg";
+import Curriculum from '../components/Curriculum/Curriculum';
 
 
 
@@ -20,7 +21,8 @@ export const alexDB = {
       gitHub: "https://github.com/Frozmiz",
       aboutMe: "Soy un profesional con capacidad de trabajo en equipo, a la hora de tomar decisiones aporto confianza y una visión realista de las cosas, pues veo oportunidades ante las dificultades, gestiono bien el estrés en situaciones de cambio y genero un ambiente de trabajo positivo.",
     },
-    education: [
+    curriculum: {
+      education: [
       {
         name: "Master in physics",
         date: "1985",
@@ -51,8 +53,9 @@ export const alexDB = {
         where: "Stark Industries",
         description:
           "Manage the company, which is a multi-billion dollar multinational corporation that develops and manufactures advanced weapon and defense technologies. The company manufactures the armor worn by Iron Man and War Machine.",
-      },
-    ],
+      }
+    ]
+  },
     languages: {
       language: "English",
       wrlevel: "Native",
