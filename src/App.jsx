@@ -1,13 +1,15 @@
 import './App.scss';
 import Hero from './components/Hero/Hero';
+import {alexDB} from "./alexDB/alexDB";
+import Portfolio from './components/Portfolio/Portfolio';
 
-
-const nombre = "Alejandro González López";
+const {hero, portfolio} = alexDB;
 
 function App() {
   return (
     <div className='App'>
-      <Hero nombre={nombre}/>
+      <Hero hero={hero}/>
+      <Portfolio portfolio={portfolio}/>
     </div>
   );
 }

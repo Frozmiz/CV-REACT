@@ -1,6 +1,19 @@
-export const CV = {
+import Img1 from "../assets/img1.jpg";
+import Img2 from "../assets/img2.jpg";
+import Img3 from "../assets/img3.jpg";
+import Img4 from "../assets/img4.png";
+import Img5 from "../assets/img5.jpg";
+import Img6 from "../assets/img6.png";
+import Img7 from "../assets/img7.jpg";
+
+
+
+
+export const alexDB = {
     hero: {
       name: "Alejandro González",
+      profession: "Full Stack Developer (MERN)",
+      mobile: "654365436",
       email: "alejandroGL92_IT@outlook.es",
       birthDate: "05/06/1992",
       image: "https://i.imgur.com/ZQAkED3.png",
@@ -55,18 +68,34 @@ export const CV = {
       "Dating",
       "Saving the world",
     ],
-    volunteer: [
-      {
-        name: "September Foundation",
-        where: "MIT",
-        description:
-          "The September Foundation is a program by Tony Stark to fund schools and young prodigies in their education. The foundation was named by Stark after a lyric from The Fantasticks song, 'Try to Remember,' which he heard his mother sing and play on the piano before her death.",
-      },
-      {
-        name: "Damage Control",
-        where: "U.S.A.",
-        description:
-          "The United States Department of Damage Control, occasionally known as the DODC, is a department of the United States of America. Initially a subsidiary of S.H.I.E.L.D., Damage Control was an organization specializing in post-battle clean-up. Following the Battle of New York, Damage Control was made into an executive branch of the United States government, and in a joint venture with Stark Industries, was tasked with acquiring alien and other dangerous artifacts along with cleaning up damages caused by enhanced individuals.",
-      },
+    portfolio: [
+        {
+            url: Img1,
+            alt: "HTML5"
+        },
+        {
+            url: Img2,
+            alt: "CSS3"
+        },
+        {
+            url: Img3,
+            alt: "JavascriptES6"
+        },
+        {
+            url: Img4,
+            alt: "Nodejs"
+        },
+        {
+            url: Img5,
+            alt: "Reactjs"
+        },
+        {
+            url: Img6,
+            alt: "MongoDB"
+        },
+        {
+            url: Img7,
+            alt: "Docker"
+        },
     ],
   };
