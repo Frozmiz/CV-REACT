@@ -1,17 +1,21 @@
 import { useState } from "react";
+import Descriptions from "./Descriptions";
 import "./Curriculum.scss";
 
 
 function Curriculum({ curriculum }) {
-    const {experience, education} = curriculum;
-    const {showExperience, setShowExperience} = useState(false);
+    const {education, experience} = curriculum;
+    const [showExperience, setShowExperience] = useState(false);
     return (
         <section className="Curriculum">
             <nav>
-                <button onClick={() => setShowExperience(false)}>Education</button>
-                <button onClick={() => setShowExperience(true)}>Experience</button>
+                <button className="Curriculum__selection" onClick={() => setShowExperience(false)}>Education</button>
+                <button className="Curriculum__selection" onClick={() => setShowExperience(true)}>Experience</button>
             </nav>
-            <p>{showExperience}</p>
+            {showExperience
+            ? <Descriptions descriptions={experience}/>
+            : <Descriptions descriptions={education}/>
+            }
 
         </section>
     )

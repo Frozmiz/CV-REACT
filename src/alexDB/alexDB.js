@@ -5,100 +5,99 @@ import Img4 from "../assets/img4.png";
 import Img5 from "../assets/img5.jpg";
 import Img6 from "../assets/img6.png";
 import Img7 from "../assets/img7.jpg";
-import Curriculum from '../components/Curriculum/Curriculum';
-
-
 
 
 export const alexDB = {
-    hero: {
-      name: "Alejandro González",
-      profession: "Full Stack Developer (MERN)",
-      mobile: "654365436",
-      email: "alejandroGL92_IT@outlook.es",
-      birthDate: "05/06/1992",
-      image: "https://i.imgur.com/ZQAkED3.png",
-      gitHub: "https://github.com/Frozmiz",
-      aboutMe: "Soy un profesional con capacidad de trabajo en equipo, a la hora de tomar decisiones aporto confianza y una visión realista de las cosas, pues veo oportunidades ante las dificultades, gestiono bien el estrés en situaciones de cambio y genero un ambiente de trabajo positivo.",
-    },
-    curriculum: {
-      education: [
+  hero: {
+    name: "Alejandro González",
+    profession: "Full Stack Developer (MERN)",
+    mobile: "654365436",
+    email: "alejandroGL92_IT@outlook.es",
+    birthDate: "05/06/1992",
+    image: "https://i.imgur.com/ZQAkED3.png",
+    gitHub: "https://github.com/Frozmiz",
+    aboutMe:
+      "Soy un profesional con capacidad de trabajo en equipo, a la hora de tomar decisiones aporto confianza y una visión realista de las cosas, pues veo oportunidades ante las dificultades, gestiono bien el estrés en situaciones de cambio y genero un ambiente de trabajo positivo.",
+  },
+  curriculum: {
+    education: [
       {
-        name: "Master in physics",
-        date: "1985",
-        where: "MIT",
+        title: "Bootcamp Full Stack Developer (MERN)",
+        year: "2022 - 2023",
+        where: "UPGRADE-HUB (350 h.)",
+        description: "Preparación para el mundo laboral en desarrollo Full Stack con HTML, CSS, JavasCript, NODE, MongoDB y React",
       },
       {
-        name: "Aeronautical Engineering",
-        date: "1995",
-        where: "ATI Vaughn College",
+        title: "Curso de Administrador de Microsoft Teams y Sistemas Cloud Azure.",
+        year: "01/2021 - 06/2021)",
+        where: "EOI - Generation Spain (320 h.)",
+        description: "Preparación para la administración de servicios en la nube con Microsoft Azure",
       },
       {
-        name: "Weapons Engineer",
-        date: "1998",
-        where: "Firearm Collegue, Queens",
+        title: "Grado superior en Administración de sistemas informáticos en red.",
+        year: "2014 - 2017",
+        where: "I.E.S Lucus Solis",
+        description: "",
+      },
+      {
+        title: "Grado medio en sistemas microinformáticos y redes.",
+        year: "2010-2012",
+        where: "I.E.S Pino Montano",
+        description: "",
       },
     ],
     experience: [
       {
-        name: "Consultant",
-        date: "01/01/2013 – Nowadays",
-        where: "S.H.I.E.L.D",
-        description:
-          "It builds the helicarriers used by S.H.I.E.L.D. It produces the Quinjets used by the Avengers.",
+        title: "Ingeniero de infraestructura cloud junior",
+        year: "03/2022 - 06/2022",
+        where: "eºmergya",
+        description: "Administración con kubernetes / docker, monitorización y administración de red con Google cloud y AWS.",
       },
-      {
-        name: "CEO",
-        date: "01/01/2000 – 28/02/2012",
-        where: "Stark Industries",
-        description:
-          "Manage the company, which is a multi-billion dollar multinational corporation that develops and manufactures advanced weapon and defense technologies. The company manufactures the armor worn by Iron Man and War Machine.",
-      }
-    ]
+    ],
   },
-    languages: {
-      language: "English",
-      wrlevel: "Native",
-      splevel: "Native",
+  languages: {
+    language: "English",
+    wrlevel: "B2",
+    splevel: "C1",
+  },
+  habilities: [
+    "Robotics",
+    "Robot Programming",
+    "Physics",
+    "Weaponery",
+    "Engineer",
+    "Money",
+    "Dating",
+    "Saving the world",
+  ],
+  portfolio: [
+    {
+      url: Img1,
+      alt: "HTML5",
     },
-    habilities: [
-      "Robotics",
-      "Robot Programming",
-      "Physics",
-      "Weaponery",
-      "Engineer",
-      "Money",
-      "Dating",
-      "Saving the world",
-    ],
-    portfolio: [
-        {
-            url: Img1,
-            alt: "HTML5"
-        },
-        {
-            url: Img2,
-            alt: "CSS3"
-        },
-        {
-            url: Img3,
-            alt: "JavascriptES6"
-        },
-        {
-            url: Img4,
-            alt: "Nodejs"
-        },
-        {
-            url: Img5,
-            alt: "Reactjs"
-        },
-        {
-            url: Img6,
-            alt: "MongoDB"
-        },
-        {
-            url: Img7,
-            alt: "Docker"
-        },
-    ],
-  };
+    {
+      url: Img2,
+      alt: "CSS3",
+    },
+    {
+      url: Img3,
+      alt: "JavascriptES6",
+    },
+    {
+      url: Img4,
+      alt: "Nodejs",
+    },
+    {
+      url: Img5,
+      alt: "Reactjs",
+    },
+    {
+      url: Img6,
+      alt: "MongoDB",
+    },
+    {
+      url: Img7,
+      alt: "Docker",
+    },
+  ],
+};
