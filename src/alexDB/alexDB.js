@@ -53,6 +53,12 @@ export const alexDB = {
         where: "eºmergya",
         description: "Administración con kubernetes / docker, monitorización y administración de red con Google cloud y AWS.",
       },
+      {
+        title: "QA Tester / Automatización",
+        year: "07/2021 - 03/2022",
+        where: "MTP – Métodos y Tecnología",
+        description: "Gestión de planes de prueba para proyecto con Endesa, uso las herramientas Mantis y Testlink, como herramienta de automatización uso Hp unified funcional testing, depurando con VB.",
+      },
     ],
   },
   languages: {
@@ -98,6 +104,10 @@ export const alexDB = {
     {
       url: Img7,
       alt: "Docker",
+    },
+    {
+      url: "https://es.schoolofdata.org/files/2017/07/python-logo-master-v3-TM-flattened.png",
+      alt: "Python",
     },
   ],
 };
