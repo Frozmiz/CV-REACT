@@ -9,13 +9,14 @@ import Img7 from "../assets/img7.jpg";
 
 export const alexDB = {
   hero: {
-    name: "Alejandro González",
+    name: "ALEJANDRO GONZALEZ",
     profession: "Jr Full Stack Developer",
     mobile: "+35389*******",
     email: "alejandroGL92_IT@outlook.es",
     birthDate: "05/06/1992",
     image: "https://i.imgur.com/ZQAkED3.png",
     gitHub: "https://github.com/Frozmiz",
+    linkedin: "http://www.linkedin.com/in/alex-gonzález-lópez",
     aboutMe:
     ` I'm a junior full stack developer originally from Spain, now based in Dublin. 
     I have a strong desire to learn and a solid grasp of web 

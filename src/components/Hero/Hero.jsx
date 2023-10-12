@@ -26,6 +26,12 @@ function Hero({ hero }) {
               {hero.gitHub}
             </a>
           </li>
+          <li>
+            <span className="Hero__icon">🌍</span>
+            <a href={`${hero.linkedin}`} className="Hero__link">
+              Linkedin profile
+            </a>
+          </li>
         </ul>
       </div>
       <div className="Hero__image">
