@@ -47,6 +47,18 @@
     
     flex-basis: 30%;
   }
+  &__about {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 1% 10%;
+    & > p {
+      font-Size: 20px;
+    }
+  }
   
 }
 
