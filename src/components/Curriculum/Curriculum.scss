@@ -1,0 +1,26 @@
+@import "../../styles/_colors.scss";
+@import "../../styles/fonts.scss";
+
+.Curriculum{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 1% 5%;
+    text-align: center;
+    &__selection {
+        border-radius: 20%;
+        min-width: 170px;
+        width: 30%;
+        margin: 1rem;
+        font-family: $font-secundary;
+        background-color: $color-base;
+        padding: 0.8rem 0.5rem;
+        border: none;
+        color: $color-secundary;
+        font-size: 1.6rem;
+        &:hover, &--true {
+            color: $color-primary;
+            text-decoration: underline;
+        }
+
+    }
+}
