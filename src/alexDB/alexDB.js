@@ -10,14 +10,22 @@ import Img7 from "../assets/img7.jpg";
 export const alexDB = {
   hero: {
     name: "Alejandro González",
-    profession: "Full Stack Developer (MERN)",
-    mobile: "654365436",
+    profession: "Jr Full Stack Developer",
+    mobile: "+35389*******",
     email: "alejandroGL92_IT@outlook.es",
     birthDate: "05/06/1992",
     image: "https://i.imgur.com/ZQAkED3.png",
     gitHub: "https://github.com/Frozmiz",
     aboutMe:
-      "Soy un profesional con capacidad de trabajo en equipo, a la hora de tomar decisiones aporto confianza y una visión realista de las cosas, pues veo oportunidades ante las dificultades, gestiono bien el estrés en situaciones de cambio y genero un ambiente de trabajo positivo.",
+    ` I'm a junior full stack developer originally from Spain, now based in Dublin. 
+    I have a strong desire to learn and a solid grasp of web 
+    development. \n\n
+    
+    My educational background and hands-on experience have provided 
+    me with proficiency in both front-end and back-end development. 
+    This makes me a versatile asset to any development team. I'm 
+    dedicated to staying updated on emerging trends and technologies to 
+    ensure that my skills stay current and adaptable.`,
   },
   curriculum: {
     education: [

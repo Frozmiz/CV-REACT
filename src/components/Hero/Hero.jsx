@@ -31,6 +31,12 @@ function Hero({ hero }) {
       <div className="Hero__image">
         <img src={Sphere} alt="Networks" />
       </div>
+      <div className="Hero__about"> 
+        <h1> ABOUT ME </h1>
+        {hero.aboutMe.split('\n\n').map((parrafo, index) => (
+        <p key={index}>{parrafo}</p>
+      ))}
+      </div>
     </section>
   );
 }
