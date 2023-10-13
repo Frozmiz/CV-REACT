@@ -17,8 +17,7 @@ export const alexDB = {
     image: "https://i.imgur.com/ZQAkED3.png",
     gitHub: "https://github.com/Frozmiz",
     linkedin: "http://www.linkedin.com/in/alex-gonzález-lópez",
-    aboutMe:
-    ` I'm a junior full stack developer originally from Spain, now based in Dublin. 
+    aboutMe: ` I'm a junior full stack developer originally from Spain, now based in Dublin. 
     I have a strong desire to learn and a solid grasp of web 
     development. \n\n
     
@@ -31,25 +30,25 @@ export const alexDB = {
   curriculum: {
     education: [
       {
-        title: "Bootcamp Full Stack Developer (MERN)",
+        title: "Bootcamp Full Stack Developer",
         year: "2022 - 2023",
         where: "UPGRADE-HUB (350 h.)",
-        description: "Preparación para el mundo laboral en desarrollo Full Stack con HTML, CSS, JavasCript, NODE, MongoDB y React",
+        description: "Preparing for a Full Stack Development Career with HTML, CSS, JavaScript, Node.js, MongoDB, React And Angular",
       },
       {
-        title: "Curso de Administrador de Microsoft Teams y Sistemas Cloud Azure.",
+        title: "Microsoft Azure Cloud Systems Administrator and Teams Course.",
         year: "01/2021 - 06/2021)",
         where: "EOI - Generation Spain (320 h.)",
-        description: "Preparación para la administración de servicios en la nube con Microsoft Azure",
+        description: "Preparing for Cloud Service Management with Microsoft Azure",
       },
       {
-        title: "Grado superior en Administración de sistemas informáticos en red.",
+        title: "Higher degree in Administration of computer network systems.",
         year: "2014 - 2017",
         where: "I.E.S Lucus Solis",
         description: "",
       },
       {
-        title: "Grado medio en sistemas microinformáticos y redes.",
+        title: "Intermediate degree in microcomputer systems and networks",
         year: "2010-2012",
         where: "I.E.S Pino Montano",
         description: "",
@@ -57,16 +56,16 @@ export const alexDB = {
     ],
     experience: [
       {
-        title: "Ingeniero de infraestructura cloud junior",
+        title: "Junior cloud infrastructure engineer",
         year: "03/2022 - 06/2022",
         where: "eºmergya",
-        description: "Administración con kubernetes / docker, monitorización y administración de red con Google cloud y AWS.",
+        description: "Kubernetes management/ docker, monitoring and network management with Google cloud and AWS.",
       },
       {
         title: "QA Tester / Automatización",
         year: "07/2021 - 03/2022",
         where: "MTP – Métodos y Tecnología",
-        description: "Gestión de planes de prueba para proyecto con Endesa, uso las herramientas Mantis y Testlink, como herramienta de automatización uso Hp unified funcional testing, depurando con VB.",
+        description: "Management of test plans for project with Endesa, I use the tools Mantis and Testlink, as automation tool use Hp unified functional testing, debugging with VB.",
       },
     ],
   },
