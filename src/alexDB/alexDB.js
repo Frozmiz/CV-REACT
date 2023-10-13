@@ -5,6 +5,7 @@ import Img4 from "../assets/img4.png";
 import Img5 from "../assets/img5.jpg";
 import Img6 from "../assets/img6.png";
 import Img7 from "../assets/img7.jpg";
+import Descriptions from './../components/Curriculum/Descriptions';
 
 
 export const alexDB = {
@@ -68,22 +69,21 @@ export const alexDB = {
         description: "Management of test plans for project with Endesa, I use the tools Mantis and Testlink, as automation tool use Hp unified functional testing, debugging with VB.",
       },
     ],
+    projects: [
+      {
+      title: "Gif Expert APP",
+      year: "",
+      where: "",
+      description: "Small search of gifs that renders 10 gifs of the category that you write in the search engine.",
+    },
+    ],
   },
   languages: {
     language: "English",
     wrlevel: "B2",
     splevel: "C1",
   },
-  habilities: [
-    "Robotics",
-    "Robot Programming",
-    "Physics",
-    "Weaponery",
-    "Engineer",
-    "Money",
-    "Dating",
-    "Saving the world",
-  ],
+  
   portfolio: [
     {
       url: Img1,
